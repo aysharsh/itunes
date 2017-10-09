@@ -1,0 +1,26 @@
+.background {
+    background: linear-gradient(180deg, #ffe0c2, #b22a2a, #861516, #3b0a09);
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    ...
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    ...
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    ...
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+    ...
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
